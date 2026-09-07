@@ -1,0 +1,14 @@
+class Student {
+    String name = "Rahul";
+    int age = 20;
+
+    public static void main(String[] args) {
+
+        // Creating object
+        Student s1 = new Student();
+
+        // Accessing class variables using object
+        System.out.println("Name: " + s1.name);
+        System.out.println("Age: " + s1.age);
+    }
+}
